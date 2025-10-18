@@ -261,20 +261,3 @@ Response Body [Login]
 ### Description
 
 The database comprises tables for managing a restaurant system. The USERS table stores user authentication data, while the EMPLOYEES table contains information about restaurant staff. MENU_ITEMS and MENU tables handle menu items and categories. ORDERS and ORDER_ITEMS tables manage customer orders and their details. The ORDERS__EMPLOYEE table establishes relationships between orders and assigned employees. The schema supports key functionalities such as user authentication, employee management, menu item organization, and order processing in a restaurant setting. Foreign key constraints ensure data integrity, and unique constraints are applied where needed for consistency and efficiency.
-
-## Project Status
-
-Project is: _in_progress_
-
-## Room for Improvement
-
-Room for improvement:
-
-- Add frontend based on React
-- Analyze more complex logic to upgrade application
-- Update backend
-- Update frontend
-
-## Contact
-
-Created by https://github.com/KubaTworek
