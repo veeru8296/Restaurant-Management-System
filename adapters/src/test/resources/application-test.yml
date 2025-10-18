@@ -1,0 +1,15 @@
+timeToWaitForReceive: 1
+multiplierTimeToCook: 200
+multiplierTimeToDelivery: 5
+spring:
+  h2.console:
+    enabled: true
+    path: '/console'
+  datasource:
+    url: 'jdbc:h2:mem:test-db;DB_CLOSE_DELAY=-1'
+    username: 'sa'
+    password: 'pass'
+  jpa:
+    show-sql: false
+    hibernate:
+      ddl-auto: create-drop
